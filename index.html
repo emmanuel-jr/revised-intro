@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Intro Page</title>
+</head>
+<body>
+    <div class="content">
+        <div class="row px-5 text-center py-5 bg-dark text-white">
+            <div class="col-sm-5 text-center"></div>
+                <h2 class="col-sm-12 text-center">Hello there! I'm Emmanuel &#128578;</h2>
+                <h4 class="col-sm-12 text-center">I will be mastering Web Development this summer</h4>
+                <img class="img-fluid" src="assets/profile.jpg" alt="Myself in winter jacket smiling">
+            </div>
+        </div>
+
+        <div class="row px-5 text-center py-5 bg-cornsilk text-secondary">
+          <h5 class="col-sm-12 text-center">A brief introduction</h5>
+          <div>
+            I am from Ghana. I am in my 2nd year now majoring in Software Systems Development
+            at the University of Regina, Canada. Always thought of offering Medicine, but 
+            after high school, I got fascinated with the prospects and innovations in 
+            Software Development. I simply did some research and took a few Computer Science 
+            courses. I am a sports person, soccer is my favourite. I love video games too.
+          </div>
+        </div>
+        <form>
+            <div class="row px-5 text-center py-5 bg-cornsilk text-secondary">
+                <div class="fill-up">
+                    <input type="text" placeholder="Enter text..." id="here"/>
+
+                    <div>
+                        <input name="gender" id="male" type="radio" value="male">
+                        <label for="male">Male</label>
+
+                        <input name="gender" id="Female" type="radio" value="female">
+                        <label for="Female">Female</label>
+                        
+                        <input name="gender" id="Other" type="radio" value="other">
+                        <label for="Other">Other</label>
+                    </div>
+        
+                    <input type="checkbox" id="connect" name="connect" onclick="show()" value="Yes"/>
+                    <label for="connect">Ready to connect?</label>
+                    <span style="display: none;" id="links" class="my-arrow-div">
+                        <a href="https://github.com/emmanuel-jr"><i class="fa fa-github-alt fa-2x"></i></a>
+                        <a href="https://www.instagram.com/idunj_r/"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/emmanuel-idun-40880b17b/"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </span>
+                </div>
+
+                <div class="done">
+                    <button class="btn btn-primary">Sumbit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html>
